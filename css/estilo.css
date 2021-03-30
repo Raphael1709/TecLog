@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-size: 1em;
+    font-family: "Trebuchet MS"," Helvetica", sans-serif;
+    background: #e6e6e6;
+}
+#cabecalho{
+    text-align: center;
+    background: #f7b600;
+    padding:15px;
+    width: 100%;
+    
+}
+
+
+
+.area-logo{
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+
+ 
+    padding: 10px;
+}
+#area-menu{
+    padding: 10px;
+}
+#area-menu a{
+    color:#fff;
+    text-decoration: none;
+    padding:10px;
+}
+
+a:link a:visited {
+    color: #fff;
+}
+#area-menu a:hover{
+    color:#f7b600;
+    background: #fff;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+.branco{
+    color:white;
+}
+/*============================== AREA PRINCIPAL =================== */
+#area-principal{
+    
+    
+    width: 920px;
+    margin: 0 auto;
+    
+
+}
+
+#area-postagens, #area-lateral{
+    background: white;
+    padding: 10px ;
+    margin: 10px;
+
+    
+   
+}
+#area-postagens{
+    width: 620px;
+    float: left;
+    margin: 10px 0px;
+}
+#area-postagens img{
+    width: 610px;
+}
+#area-lateral{
+
+    width: 240px;
+    float: left;
+     
+
+}
+.noticia-lateral1 h2{
+   
+    color:#f7b600;
+
+}
+
+/*=======================================RODAPÉ===========================*/
+.rodape{
+    text-align: center;
+    font-weight:900;
+    font-size: 1rem;
+    clear: both;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
